@@ -36,6 +36,5 @@ function Calc(){
     let fromCurrencyChoose = document.querySelector('#fromCurrency').value,
     toCurrencyChoose = document.querySelector('#toCurrency').value,
     amount = document.querySelector('#amount').value;
-    event.preventDefault();
     convertCurrency(fromCurrencyChoose, toCurrencyChoose, amount);
 }

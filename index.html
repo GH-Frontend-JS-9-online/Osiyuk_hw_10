@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Currency converter</title>
+</head>
+<body>
+<main>
+   <select id="fromCurrency">
+     <option value="UAH">UAH</option>
+     <option value="RUB">RUB</option>
+     <option value="EUR">EUR</option>
+     <option value="USD">USD</option>
+     <option value="BYN">BYN</option>
+     <option value="CAD">CAD</option>
+     <option value="CZK">CZK</option>
+     <option value="GBP">GBP</option>
+     <option value="CLP">CLP</option>
+     <option value="CNY">CNY</option>
+   </select>
+   <input type="text" name="amount" id="amount">
+   <label>to</label>
+   <select id="toCurrency">
+     <option value="UAH">UAH</option>
+     <option value="RUB">RUB</option>
+     <option value="EUR">EUR</option>
+     <option value="USD">USD</option>
+     <option value="BYN">BYN</option>
+     <option value="CAD">CAD</option>
+     <option value="CZK">CZK</option>
+     <option value="GBP">GBP</option>
+     <option value="CLP">CLP</option>
+     <option value="CNY">CNY</option>
+   </select>
+  <button id="convert" onclick="Calc()">Convert</button>
+    <p id="result"></p>
+</main>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="currency-converter.js"></script>
+
+</body>
+</html>
